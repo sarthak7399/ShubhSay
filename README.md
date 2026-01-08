@@ -52,6 +52,13 @@ On festivals, birthdays, or special occasions, we often want to wish many people
 ```
 shubhsay/
   backend/
+    app/
+        main.py        -> FastAPI entry point
+        core/          -> Config, settings, constants
+        api/           -> API routes (upload, groups, etc.)
+        services/      -> Business logic (VCF parsing, grouping, etc.)
+        models/        -> DB models / schemas
+        utils/         -> Helper utilities (file parsing, etc.)
   frontend/
   docs/
   README.md
