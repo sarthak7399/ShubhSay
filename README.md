@@ -90,14 +90,14 @@ cd shubhsay
 #### 🪟 On Windows (PowerShell / CMD):
 
 ```bash
-python -m venv venv
+python -m venv ShubhSayEnv
 venv\Scripts\activate
 ```
 
 #### 🐧 On Linux / macOS:
 
 ```bash
-python3 -m venv venv
+python3 -m venv ShubhSayEnv
 source venv/bin/activate
 ```
 
